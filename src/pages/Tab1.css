@@ -1,0 +1,36 @@
+.img{
+    width: 100px; height: auto;
+}
+
+ion-icon{
+    width: 23px;
+    height: 23px;
+}
+
+.ion-justify-content-around {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .button-bar {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.button-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.activated {
+  --background: #606060;
+  --color: #fff;
+}
+
+.inactive {
+  --background: #edefef;
+  --color: var(--ion-color-primary);
+}
+
+.color{
+    color: black;
+}
